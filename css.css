@@ -1,0 +1,75 @@
+/* Tema Five Nights at Freddy's - estilos personalizados */
+:root{
+	--fnaf-bg:#07060a;
+	--fnaf-deep:#0f0f16;
+	--fnaf-accent:#ff6f00;
+	--fnaf-gold:#ffcc00;
+}
+
+body{
+	background: var(--fnaf-bg);
+	color: #e9e6e6;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	padding-top: 72px;
+}
+
+.fnaf-title{
+	font-family: 'Creepster', cursive;
+	color: var(--fnaf-gold);
+	text-shadow: 0 2px 12px rgba(255,111,0,0.25), 0 1px 1px rgba(0,0,0,0.6);
+}
+
+.jumbotron{
+	background: radial-gradient(circle at 20% 20%, rgba(255,111,0,0.06), transparent 25%), linear-gradient(180deg, rgba(27,19,39,0.9), rgba(8,6,12,0.9));
+	border: 1px solid rgba(255,255,255,0.03);
+	box-shadow: 0 10px 40px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+}
+
+.btn-fnaf{
+	background: linear-gradient(90deg,var(--fnaf-accent),var(--fnaf-gold));
+	color: #081018;
+	font-weight: 700;
+	border-radius: .35rem;
+}
+
+.btn-fnaf:hover{ transform: translateY(-2px); box-shadow: 0 12px 30px rgba(255,111,0,0.12); }
+
+.fnaf-card{
+	background: linear-gradient(180deg, rgba(20,20,25,0.85), rgba(8,8,12,0.7));
+	border: 1px solid rgba(255,255,255,0.03);
+	transition: transform .18s ease, box-shadow .18s ease;
+}
+
+.fnaf-card:hover{ transform: translateY(-6px); box-shadow: 0 18px 50px rgba(0,0,0,0.6); }
+
+.fnaf-card .card-title{ color: var(--fnaf-gold); }
+
+/* Ajustes responsivos e espaçamentos */
+@media (max-width: 575.98px){
+	.jumbotron{ padding: 2rem 1rem; }
+}
+
+/* Pequeno efeito de neon nas seções */
+.card-body p{ color: #d7d3d3; }
+
+/* Estilos para imagem no jumbotron */
+.jumbo-img-wrapper{ max-width: 320px; }
+.jumbotron-img{ display:block; max-width:100%; border-radius:12px; box-shadow: 0 12px 40px rgba(0,0,0,0.6); border: 3px solid rgba(255,204,0,0.06); }
+
+@media (max-width: 767.98px){
+	.jumbo-img-wrapper{ max-width: 220px; }
+}
+
+/* Navbar personalizado */
+.fnaf-navbar{
+	background: linear-gradient(180deg, rgba(0,0,0,0.35), rgba(0,0,0,0.18));
+	border-bottom: 1px solid rgba(255,255,255,0.03);
+	backdrop-filter: blur(4px);
+}
+.fnaf-navbar .nav-link{ color: rgba(255,255,255,0.9); }
+.fnaf-navbar .nav-link:hover{ color: var(--fnaf-gold); }
+
+@media (max-width: 575.98px){
+	body{ padding-top: 100px; }
+}

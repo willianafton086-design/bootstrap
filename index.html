@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Five Nights at Freddy's - Layout Bootstrap 5</title>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css.css">
+</head>
+<body class="bg-dark text-light">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent fnaf-navbar fixed-top">
+    <div class="container">
+        <a class="navbar-brand fnaf-title mb-0" href="#">FNAF</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarFnaf" aria-controls="navbarFnaf" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarFnaf">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Câmeras</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Inventário</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-sm btn-fnaf text-dark ms-2" href="#">Entrar</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container py-4">
+    <!-- Linha 1: Coluna 12 com Jumbotron -->
+    <div class="row">
+        <div class="col-12">
+            <section class="jumbotron rounded p-5 mb-4">
+                <div class="d-flex flex-column flex-md-row align-items-center gap-4">
+                    <div class="text-center text-md-start flex-grow-1">
+                        <h1 class="display-4 fnaf-title mb-2">Five Nights at Freddy's</h1>
+                        <p class="lead mb-3">Cuidado com as câmeras... fique atento às luzes e portas.</p>
+                        <a class="btn btn-fnaf px-4 py-2" href="#">Entrar no turno</a>
+                    </div>
+                    <div class="jumbo-img-wrapper d-flex justify-content-center">
+                        <!-- Coloque sua imagem em images/fnaf.png -->
+                        <img src="images/FNAFF.png" alt="Five Nights at Freddy's" class="jumbotron-img img-fluid">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Linha 2: Duas colunas 6/6 -->
+    <div class="row g-4 mb-4">
+        <div class="col-12 col-md-6">
+            <div class="card fnaf-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Câmeras</h5>
+                    <p class="card-text">Monitore as áreas da pizzaria. Use as câmeras para localizar movimentos estranhos.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div class="card fnaf-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Portas e Luzes</h5>
+                    <p class="card-text">Controle as portas e as luzes para proteger sua estação durante a noite.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Linha 3: Três colunas 4/4/4 -->
+    <div class="row g-4 mb-4">
+        <div class="col-12 col-md-4">
+            <div class="card fnaf-card h-100">
+                <div class="card-body">
+                    <h6 class="card-title">Salas</h6>
+                    <p class="card-text">Confira a sala dos animatrônicos e a arena principal.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card fnaf-card h-100">
+                <div class="card-body">
+                    <h6 class="card-title">Manutenção</h6>
+                    <p class="card-text">Verifique o sistema de energia e mantenha as câmeras online.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-4">
+            <div class="card fnaf-card h-100">
+                <div class="card-body">
+                    <h6 class="card-title">Eventos</h6>
+                    <p class="card-text">Registre eventos estranhos e prepare estratégias para as noites seguintes.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Linha 4: Duas colunas 4/8 -->
+    <div class="row g-4 mb-4">
+        <div class="col-12 col-md-4">
+            <div class="card fnaf-card h-100">
+                <div class="card-body">
+                    <h6 class="card-title">Inventário</h6>
+                    <p class="card-text">Itens disponíveis: lanterna, chave, e registros das câmeras.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-8">
+            <div class="card fnaf-card h-100">
+                <div class="card-body">
+                    <h6 class="card-title">Mapa da Pizzaria</h6>
+                    <p class="card-text">Visualização ampliada do mapa com pontos críticos e rotas de fuga.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js.js"></script>
+</body>
+</html>
