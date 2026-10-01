@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Foxy">
+  <rect width="220" height="220" fill="#191820"/>
+  <ellipse cx="110" cy="148" rx="62" ry="50" fill="#d68f46"/>
+  <circle cx="79" cy="86" r="12" fill="#ffd59a"/>
+  <circle cx="141" cy="86" r="12" fill="#ffd59a"/>
+  <circle cx="79" cy="86" r="5" fill="#0d0d10"/>
+  <circle cx="141" cy="86" r="5" fill="#0d0d10"/>
+  <path d="M86 120 Q110 138 134 120" fill="none" stroke="#2c1d17" stroke-width="6" stroke-linecap="round"/>
+  <path d="M60 68 L80 28 L94 60 L80 84 Z" fill="#d68f46"/>
+  <path d="M160 68 L140 28 L126 60 L140 84 Z" fill="#d68f46"/>
+  <path d="M58 74 Q82 58 95 76" fill="none" stroke="#f7db9a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M162 74 Q138 58 125 76" fill="none" stroke="#f7db9a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M92 172 Q110 188 128 172" fill="none" stroke="#121217" stroke-width="10" stroke-linecap="round"/>
+  <path d="M70 176 L50 207 L88 198 Z" fill="#9e5d2d"/>
+  <path d="M150 176 L170 207 L132 198 Z" fill="#9e5d2d"/>
+  <path d="M82 150 L65 114 L94 118 Z" fill="#d68f46"/>
+  <path d="M138 150 L155 114 L126 118 Z" fill="#d68f46"/>
+  <path d="M154 62 L183 58 L171 78 Z" fill="#d68f46"/>
+  <path d="M66 62 L37 58 L49 78 Z" fill="#d68f46"/>
+</svg>

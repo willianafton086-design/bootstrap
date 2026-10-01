@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Golden Freddy">
+  <rect width="220" height="220" fill="#121217"/>
+  <ellipse cx="110" cy="150" rx="60" ry="52" fill="#d6b06c"/>
+  <circle cx="78" cy="87" r="13" fill="#f6d9a0"/>
+  <circle cx="142" cy="87" r="13" fill="#f6d9a0"/>
+  <circle cx="78" cy="87" r="5" fill="#0f0f10"/>
+  <circle cx="142" cy="87" r="5" fill="#0f0f10"/>
+  <path d="M84 116 Q110 138 136 116" fill="none" stroke="#2a1e1d" stroke-width="6" stroke-linecap="round"/>
+  <path d="M62 72 L78 36 L96 58 L84 90 Z" fill="#d6b06c"/>
+  <path d="M158 72 L142 36 L124 58 L136 90 Z" fill="#d6b06c"/>
+  <path d="M74 173 Q110 197 146 173" fill="none" stroke="#1a1a22" stroke-width="10" stroke-linecap="round"/>
+  <path d="M78 176 L52 210 L90 198 Z" fill="#a57b3e"/>
+  <path d="M142 176 L168 210 L130 198 Z" fill="#a57b3e"/>
+  <path d="M82 152 L70 120 L96 118 Z" fill="#d6b06c"/>
+  <path d="M138 152 L150 120 L124 118 Z" fill="#d6b06c"/>
+  <path d="M95 53 L110 26 L125 53 Z" fill="#f0cf86" opacity="0.8"/>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Bonnie">
+  <rect width="220" height="220" fill="#16151d"/>
+  <ellipse cx="110" cy="150" rx="58" ry="48" fill="#d4af62"/>
+  <circle cx="78" cy="86" r="12" fill="#fff0c4"/>
+  <circle cx="142" cy="86" r="12" fill="#fff0c4"/>
+  <circle cx="78" cy="86" r="5" fill="#131313"/>
+  <circle cx="142" cy="86" r="5" fill="#131313"/>
+  <path d="M82 120 Q110 140 138 120" fill="none" stroke="#2c1d21" stroke-width="6" stroke-linecap="round"/>
+  <path d="M57 70 L70 40 L90 58 L80 90 Z" fill="#d4af62"/>
+  <path d="M163 70 L150 40 L130 58 L140 90 Z" fill="#d4af62"/>
+  <path d="M54 82 Q82 62 93 82" fill="none" stroke="#f7df9f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M166 82 Q138 62 127 82" fill="none" stroke="#f7df9f" stroke-width="7" stroke-linecap="round"/>
+  <path d="M87 172 Q110 190 133 172" fill="none" stroke="#1a1b27" stroke-width="10" stroke-linecap="round"/>
+  <rect x="94" y="154" width="32" height="14" rx="6" fill="#e0bd73"/>
+  <path d="M66 176 L46 206 L80 198 Z" fill="#b6863e"/>
+  <path d="M154 176 L174 206 L140 198 Z" fill="#b6863e"/>
+  <path d="M78 156 L64 132 L88 118 Z" fill="#d4af62"/>
+  <path d="M142 156 L156 132 L132 118 Z" fill="#d4af62"/>
+</svg>

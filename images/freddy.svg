@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-label="Freddy Fazbear">
+  <defs>
+    <linearGradient id="bg1" x1="0" x2="1">
+      <stop offset="0" stop-color="#1d1b2d"/>
+      <stop offset="1" stop-color="#141321"/>
+    </linearGradient>
+  </defs>
+  <rect width="220" height="220" fill="url(#bg1)"/>
+  <ellipse cx="110" cy="150" rx="60" ry="48" fill="#d3a24e"/>
+  <circle cx="78" cy="88" r="12" fill="#f7d489"/>
+  <circle cx="142" cy="88" r="12" fill="#f7d489"/>
+  <circle cx="78" cy="88" r="5" fill="#111"/>
+  <circle cx="142" cy="88" r="5" fill="#111"/>
+  <path d="M88 118 Q110 136 132 118" fill="none" stroke="#292228" stroke-width="6" stroke-linecap="round"/>
+  <path d="M58 66 L72 34 L94 54 L74 76 Z" fill="#d3a24e"/>
+  <path d="M162 66 L148 34 L126 54 L146 76 Z" fill="#d3a24e"/>
+  <path d="M58 72 Q80 56 92 74" fill="none" stroke="#f7d489" stroke-width="7" stroke-linecap="round"/>
+  <path d="M162 72 Q140 56 128 74" fill="none" stroke="#f7d489" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="110" cy="152" rx="46" ry="38" fill="#d6a356"/>
+  <path d="M82 175 Q110 200 138 175" fill="none" stroke="#1e1b26" stroke-width="10" stroke-linecap="round"/>
+  <rect x="94" y="150" width="32" height="22" rx="8" fill="#e8b862"/>
+  <path d="M70 176 L54 208 L88 198 Z" fill="#c88b3a"/>
+  <path d="M150 176 L166 208 L132 198 Z" fill="#c88b3a"/>
+  <path d="M80 150 L54 118 L86 116 Z" fill="#d3a24e"/>
+  <path d="M140 150 L166 118 L134 116 Z" fill="#d3a24e"/>
+</svg>

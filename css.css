@@ -73,3 +73,208 @@ body{
 @media (max-width: 575.98px){
 	body{ padding-top: 100px; }
 }
+
+/* Página de História */
+.history-page{
+	padding-top: 2.5rem;
+	padding-bottom: 3rem;
+}
+
+.history-header{
+	padding: 2.25rem 0 1.5rem;
+}
+
+.history-article{
+	padding: 0.25rem 0;
+}
+
+.history-content{
+	padding: 2rem 1.75rem;
+}
+
+.history-content h2{
+	color: var(--fnaf-gold);
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.history-content p{
+	color: #e5e1e1;
+	line-height: 1.8;
+	margin-bottom: 1rem;
+	font-size: 1.02rem;
+}
+
+.history-content strong{
+	color: #ffd45c;
+}
+
+.infobox{
+	overflow: hidden;
+	border: 1px solid rgba(255,255,255,0.05);
+	box-shadow: 0 18px 50px rgba(0,0,0,0.45);
+}
+
+.infobox-header{
+	background: linear-gradient(180deg, rgba(255,204,0,0.14), rgba(255,111,0,0.06));
+	color: var(--fnaf-gold);
+	font-weight: 700;
+	text-align: center;
+	padding: 0.9rem 1rem;
+	border-bottom: 1px solid rgba(255,255,255,0.06);
+	font-size: 1.15rem;
+}
+
+.infobox img{
+	display: block;
+	width: 100%;
+	height: auto;
+	max-height: 320px;
+	object-fit: cover;
+	border-bottom: 1px solid rgba(255,255,255,0.06);
+	background: #111;
+}
+
+.infobox-body{
+	padding: 1rem 1rem 0.6rem;
+}
+
+.infobox-body dl{
+	margin: 0;
+}
+
+.infobox-body dt{
+	font-weight: 700;
+	color: var(--fnaf-gold);
+	margin-top: 0.8rem;
+	margin-bottom: 0.15rem;
+}
+
+.infobox-body dd{
+	margin: 0;
+	color: #e5e1e1;
+	line-height: 1.6;
+}
+
+@media (max-width: 991.98px){
+	.history-content{
+		padding: 1.5rem 1.1rem;
+	}
+}
+
+@media (max-width: 767.98px){
+	.history-page{
+		padding-top: 1.5rem;
+	}
+
+	.history-header{
+		padding-top: 1.2rem;
+	}
+
+	.history-content h2{
+		font-size: 1.5rem;
+	}
+
+	.infobox{
+		margin-top: 0.5rem;
+	}
+}
+
+/* Página de Bestiário */
+.bestiary-page{
+	padding-top: 2.5rem;
+	padding-bottom: 3rem;
+}
+
+.bestiary-header{
+	padding: 2.25rem 0 1.75rem;
+}
+
+.bestiary-card{
+	overflow: hidden;
+	border: 1px solid rgba(255,255,255,0.04);
+	background: linear-gradient(180deg, rgba(20,20,25,0.9), rgba(8,8,12,0.78));
+	transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+.bestiary-card:hover{
+	transform: translateY(-4px);
+	box-shadow: 0 18px 45px rgba(0,0,0,0.42);
+	border-color: rgba(255,204,0,0.14);
+}
+
+.bestiary-card .row{
+	min-height: 100%;
+}
+
+.bestiary-img{
+	display: block;
+	width: 100%;
+	height: 100%;
+	min-height: 220px;
+	object-fit: cover;
+	background: linear-gradient(135deg, rgba(255,111,0,0.12), rgba(255,204,0,0.05));
+	border-right: 1px solid rgba(255,255,255,0.05);
+	transition: transform .25s ease, filter .25s ease;
+}
+
+.bestiary-card:hover .bestiary-img{
+	transform: scale(1.02);
+	filter: saturate(1.1);
+}
+
+.bestiary-body{
+	padding: 1.25rem 1rem 1.1rem;
+}
+
+.bestiary-body h2{
+	color: var(--fnaf-gold);
+	font-size: 1.8rem;
+	margin-bottom: 0.35rem;
+}
+
+.bestiary-subtitle{
+	color: #f5d97a;
+	font-size: 0.92rem;
+	letter-spacing: 0.04em;
+	text-transform: uppercase;
+	margin-bottom: 0.9rem;
+}
+
+.bestiary-body p{
+	margin-bottom: 0.65rem;
+	line-height: 1.6;
+	color: #e6e2e2;
+}
+
+.bestiary-body strong{
+	color: #ffd45c;
+}
+
+@media (max-width: 991.98px){
+	.bestiary-body h2{
+		font-size: 1.6rem;
+	}
+}
+
+@media (max-width: 575.98px){
+	.bestiary-page{
+		padding-top: 1.5rem;
+	}
+
+	.bestiary-card .row > .col-5,
+	.bestiary-card .row > .col-7{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	.bestiary-img{
+		height: 220px;
+		border-right: none;
+		border-bottom: 1px solid rgba(255,255,255,0.05);
+	}
+
+	.bestiary-body{
+		padding: 1rem 0.9rem;
+	}
+}
